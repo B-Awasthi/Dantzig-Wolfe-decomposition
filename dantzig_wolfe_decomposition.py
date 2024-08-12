@@ -6,6 +6,9 @@ import gurobipy as gp
 from gurobipy import GRB
 from itertools import count
 
+# Inspired from :
+# https://personal.eur.nl/birbil/ie606/
+
 # minimize   : x1 - 3x2
 # subject to : -x1 + 2x2 <= 6    Complicating constraint(s)
 #            : x1  + x2  <= 5    Easy constraint(s)
